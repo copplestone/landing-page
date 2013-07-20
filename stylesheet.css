@@ -1,3 +1,37 @@
-.three-boxes{font-size: 20px}
 
-.title{font-size: 80px}
+
+
+h1 {
+    font-family: 'Arvo', Georgia, Times, serif;
+    font-size: 59px;
+    line-height: 80px;
+}
+
+h2 {
+    font-family: 'Arvo', Georgia, Times, serif;
+    font-size: 40px;
+    line-height: 50px;
+}
+ 
+p.three-boxes {
+    font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+li {font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+    font-size: 22px;
+    line-height: 30px;
+}
+
+button{font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+body { 
+    background: url(/img/brickwall.png) repeat 0 0;
+}
+
+i {
+margin-right: 8px;}
