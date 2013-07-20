@@ -1,16 +1,16 @@
 
-
-
 h1 {
     font-family: 'Arvo', Georgia, Times, serif;
     font-size: 59px;
     line-height: 80px;
+    text-shadow: 1px 1px 1px #ccc;
 }
 
 h2 {
     font-family: 'Arvo', Georgia, Times, serif;
-    font-size: 40px;
+    font-size: 37px;
     line-height: 50px;
+    text-shadow: 1px 1px 1px #ccc;
 }
  
 p.three-boxes {
@@ -18,6 +18,10 @@ p.three-boxes {
     font-size: 20px;
     line-height: 30px;
 }
+
+.hero-unit{
+padding:20px 40px 20px 40px;
+  }
 
 li {font-family: 'PT Sans', Helvetica, Arial, sans-serif;
     font-size: 22px;
@@ -30,7 +34,7 @@ button{font-family: 'PT Sans', Helvetica, Arial, sans-serif;
 }
 
 body { 
-    background: url(/img/brickwall.png) repeat 0 0;
+    background-color: white;
 }
 
 i {
