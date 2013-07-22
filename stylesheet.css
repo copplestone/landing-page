@@ -14,7 +14,7 @@ h2 {
 }
  
 p.three-boxes {
-    font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
     font-size: 20px;
     line-height: 30px;
 }
@@ -23,12 +23,12 @@ p.three-boxes {
 padding:20px 40px 20px 40px;
   }
 
-li {font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+li {font-family: Helvetica, Arial, sans-serif;
     font-size: 22px;
     line-height: 30px;
 }
 
-button{font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+button{font-family: Helvetica, Arial, sans-serif;
     font-size: 20px;
     line-height: 30px;
 }
