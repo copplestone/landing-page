@@ -1,0 +1,47 @@
+
+h1 {
+    font-family: 'Arvo', Georgia, Times, serif;
+    font-size: 59px;
+    line-height: 80px;
+    text-shadow: 1px 1px 1px #ccc;
+}
+
+h2 {
+    font-family: 'Arvo', Georgia, Times, serif;
+    font-size: 37px;
+    line-height: 50px;
+    text-shadow: 1px 1px 1px #ccc;
+}
+ 
+p.three-boxes {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.hero-unit{
+padding:20px 40px 20px 40px;
+  }
+
+li {font-family: Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    <%--padding-left: 1.2em;-->
+}
+
+ul
+{
+        list-style-type: none;
+}
+
+button{font-family: Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+body { 
+    background-color: white;
+}
+
+i {
+margin-right: 8px;}
