@@ -24,8 +24,14 @@ padding:20px 40px 20px 40px;
   }
 
 li {font-family: Helvetica, Arial, sans-serif;
-    font-size: 22px;
+    font-size: 20px;
     line-height: 30px;
+    <%--padding-left: 1.2em;-->
+}
+
+ul
+{
+        list-style-type: none;
 }
 
 button{font-family: Helvetica, Arial, sans-serif;
