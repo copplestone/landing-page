@@ -1,1 +1,64 @@
-Form
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Html form</title>
+    <link rel='stylesheet' href='bootstrap/css/bootstrap.css'>
+    <link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+
+</head>
+
+<body>
+    <div class='container'>
+
+ <h2>Just fill in the boxes and we'll keep you updated</h2>
+<br><br>
+    <div class="span8 offset2">
+            <form action="https://docs.google.com/forms/d/1vN0IOTsvhP66qklRjMI7g_2t0Qwid4zXgy8AnUgwxxw/formResponse" method="POST">
+                <label>Name</label>
+                <input type="text" name="entry.1763980780">
+
+
+                <label>Email</label>
+                <input type="text" name="entry.1756982006">
+
+                <legend>What operating system do you use on your laptop?</legend>
+
+                <!-- radio buttons -->
+                <label class='radio'>
+                <input type='radio' name='laptop-type' value='windows'>
+            Windows
+            </label>
+            <label class='radio'>
+            <input type='radio' name='laptop-type' value='mac'>
+            Mac</label>
+            <label class='radio'>
+            <input type='radio' name='laptop-type' value='linux'>
+            Linux</label>
+            <label class='radio'>
+            <input type='radio' name='laptop-type' value='linux'>
+            I don't own a laptop</label>
+
+            <legend>Have you heard or used any of these languages?</legend>
+            <!-- checkboxes -->
+            <label class='checkbox'>
+            <input type='checkbox' name='languages-known' value='html'>
+            HTML</label>
+            <label class='checkbox'>
+            <input type='checkbox' name='languages-known' value='css'>
+            CSS</label>
+            <label class='checkbox'>
+            <input type='checkbox' name='languages-known' value='ruby'>
+            ruby</label>
+            <label class='checkbox'>
+            <input type='checkbox' name='languages-known' value='javascript'>
+            javascript</label>
+<br><br>
+            <input type="submit">
+
+        </form>
+
+            </div>                        
+    </div>
+
+</body>
+</html>
