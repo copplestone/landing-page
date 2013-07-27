@@ -13,10 +13,15 @@ ga('create', 'UA-42734948-1', 'copplestone.github.io'); ga('send', 'pageview');
 <body>
     <div class='container'>
 
- <h2>Just fill in the boxes and we'll keep you updated</h2>
-<br><br>
+ <h2 class="page-header text-center title">Just fill in the boxes and we'll keep you updated</h2>
     <div class="span8 offset2">
-            <form action="https://docs.google.com/forms/d/1vN0IOTsvhP66qklRjMI7g_2t0Qwid4zXgy8AnUgwxxw/formResponse" method="POST">
+                <script type="text/javascript">var submitted=false;</script>
+                <iframe name="hidden_iframe" id="hidden_iframe"
+                style="display:none;" onload="if(submitted)
+                {window.location='thanks.html';}"></iframe>
+                <form action="https://docs.google.              com/forms/d/1vN0IOTsvhP66qklRjMI7g_2t0Qwid4zXgy8AnUgwxxw/formResponse" method="post"
+                target="hidden_iframe" onsubmit="submitted=true;">
+
                 <label>Name</label>
                 <input type="text" name="entry.1763980780">
 
@@ -55,7 +60,7 @@ ga('create', 'UA-42734948-1', 'copplestone.github.io'); ga('send', 'pageview');
             <label class='checkbox'>
             <input type='checkbox' name="entry.477041994" value='javascript' id="group_477041994_4">
             javascript</label>
-<br><br>
+<br>
             <input type="submit">
 
         </form>
