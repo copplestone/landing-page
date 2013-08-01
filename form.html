@@ -7,66 +7,75 @@
     <script> (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o), m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m) })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 ga('create', 'UA-42833734-1', 'copplestone.github.io'); ga('send', 'pageview');
 </script>
-
-</head>
-
-<body>
-    <div class='container'>
-
- <h2 class="page-header text-center title">Just fill in the boxes and we'll keep you updated</h2>
-    <div class="span8 offset2">
-                <script type="text/javascript">var submitted=false;</script>
+ <script type="text/javascript">var submitted=false;</script>
                 <iframe name="hidden_iframe" id="hidden_iframe"
                 style="display:none;" onload="if(submitted)
                 {window.location='thanks.html';}"></iframe>
                 <form action="https://docs.google.              com/forms/d/1vN0IOTsvhP66qklRjMI7g_2t0Qwid4zXgy8AnUgwxxw/formResponse" method="post"
                 target="hidden_iframe" onsubmit="submitted=true;">
+</head>
 
-                <label>Name</label>
+
+
+<body>
+    <div class='container'>
+
+ <h2 class="text-center">Just fill in the boxes and we'll keep you updated</h2>
+ <br>
+    <div class="row">
+    <div class="span5 offset1">
+            <div class="grey-box">
+                <h3>Name</h3>
                 <input type="text" name="entry.1763980780">
-
-
-                <label>Email</label>
-                <input type="text" name="entry.1756982006">
-
-                <legend>What operating system do you use on your laptop?</legend>
-
-                <!-- radio buttons -->
-                <label class='radio'>
-                <input type='radio' name="entry.1740666005" value='windows' id="group_1740666005_1">
+            </div>
+        <br>
+        <div class="grey-box">
+            <h3>What operating system do you use on your laptop?</h3>
+            <label class='radio form-stuff'>
+            <input type='radio' name="entry.1740666005" value='windows' id="group_1740666005_1">
             Windows
             </label>
-            <label class='radio'>
+            <label class='radio form-stuff'>
             <input type='radio' name="entry.1740666005" value='mac' id="group_1740666005_2">
             Mac</label>
-            <label class='radio'>
+            <label class='radio form-stuff'>
             <input type='radio' name="entry.1740666005" value='linux' id="group_1740666005_3">
             Linux</label>
-            <label class='radio'>
+            <label class='radio form-stuff'>
             <input type='radio' name="entry.1740666005" value='I dont have one' id="group_1740666005_4">
             I don't own a laptop</label>
-
-            <legend>Have you heard or used any of these languages?</legend>
+        </div>
+    </div>
+    <div class = "span5 offset">
+        <div class="grey-box">
+            <h3>Email</h3>
+            <input type="text" name="entry.1756982006">
+        </div>
+<br>
+        <div class="grey-box">
+            <h3>Have you heard or used any of these languages?</h3>
             <!-- checkboxes -->
-            <label class='checkbox'>
+            <label class='checkbox form-stuff'>
             <input type='checkbox' name="entry.477041994" value='html' id="group_477041994_1">
             HTML</label>
-            <label class='checkbox'>
+            <label class='checkbox form-stuff'>
             <input type='checkbox' name="entry.477041994" value='css' id="group_477041994_2">
             CSS</label>
-            <label class='checkbox'>
+            <label class='checkbox form-stuff'>
             <input type='checkbox' name="entry.477041994" value='ruby' id="group_477041994_3">
             ruby</label>
-            <label class='checkbox'>
+            <label class='checkbox form-stuff'>
             <input type='checkbox' name="entry.477041994" value='javascript' id="group_477041994_4">
             javascript</label>
+        </div>
 <br>
-            <input type="submit">
+            <input type="submit" class="btn button btn-large">
 
         </form>
 
             </div>                        
     </div>
+</div>
 
 </body>
 </html>
